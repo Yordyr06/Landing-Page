@@ -1,4 +1,4 @@
-:root {
+ :root {
   --bitcoin-orange: #f7931a;
   --soft-orange: #ffe9d5;
   --secondary-blue: #1a9af7;
@@ -84,3 +84,93 @@ html {
   margin-left: 1rem;
   background-image: url("../assets/icons/down-arrow.svg");
 }
+
+
+
+.main {
+  width: 100%;
+  min-width: 32rem;
+  height: auto;
+  background-color: var(--off-white);
+}
+
+.section-chart {
+  width: 100%;
+  height: auto;
+  padding-top: 8rem;
+  padding-bottom: 3rem;
+  text-align: center;
+}
+.section-chart__div-img {
+  width: 20rem;
+  height: 20rem;
+  margin: 0 auto;
+  margin-bottom: 5rem;
+  background-image: url("../assets/img/Bitcoin.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.section-chart__div-text {
+  width: 90%;
+  min-width: 28.8rem;
+  max-width: 90rem;
+  margin: 0 auto;
+}
+.section-chart__div-text h2 {
+  margin-bottom: 3rem;
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+  color: var(--black);
+}
+.section-chart__div-text p {
+  margin-bottom: 3rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.6rem;
+  color: #757575;
+}
+
+.section-currency {}
+.section-currency__div {
+  width: 70%;
+  min-width: 23.5rem;
+  max-width: 50rem;
+  height: 36rem;
+  margin: 0 auto;
+  font-family: "Inter", sans-serif;
+}
+.section-currency__div--tittle {
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 2.3rem;
+  color: var(--bitcoin-orange);
+}
+.section-currency__div--table-container {
+  width: 90%;
+  min-width: 23rem;
+  max-width: 30rem;
+  height: 25rem;
+  margin: 0 auto;
+}
+.section-currency__div--table-container table {
+  width: 100%;
+  height: 100%;
+}
+.section-currency__div--table-container td {
+  width: 50%;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.9rem;
+  color: var(--grey);
+  background-color: var(--just-white);
+}
+.section-currency__div--table-top-left {}
+.section-currency__div--table-top-right {}
+.section-currency__div--table-left {}
+.section-currency__div--table-right {}
+.section-currency__div--table-bottom-left {}
+.section-currency__div--table-bottom-right {}
+.section-currency__div--date {}
