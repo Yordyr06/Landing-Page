@@ -164,13 +164,59 @@ html {
   font-size: 1.6rem;
   font-weight: 500;
   line-height: 1.9rem;
+  padding: 2rem;
   color: var(--grey);
   background-color: var(--just-white);
 }
-.section-currency__div--table-top-left {}
-.section-currency__div--table-top-right {}
+.section-currency__div--table-top-left {
+  border-radius: 1.5rem 0 0 0;
+}
+.section-currency__div--table-top-right {
+  border-radius: 0 1.5rem 0 0;
+}
+.section-currency__div--table-bottom-left {
+  border-radius: 0 0 0 1.5rem;
+}
+.section-currency__div--table-bottom-right {
+  border-radius: 0 0 1.5rem 0;
+}
 .section-currency__div--table-left {}
-.section-currency__div--table-right {}
-.section-currency__div--table-bottom-left {}
-.section-currency__div--table-bottom-right {}
-.section-currency__div--date {}
+.section-currency__div--table-right {
+  font-size: 1.4rem;
+  font-weight: normal;
+  color: #757575;
+}
+.section-currency__div--table-right .up {
+  display: inline-block;
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-left: 1rem;
+  background-image: url("../assets/icons/trending-up.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.section-currency__div--table-right .down {
+  display: inline-block;
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-left: 1rem;
+  background-image: url("../assets/icons/trending-down.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.section-currency__div--date {
+  width: 20rem;
+  height: 3rem;
+  margin: 0 auto;
+  margin-top: 1.5rem;
+  padding: 0.8rem;
+  background-color: var(--soft-orange);
+  border-radius: 0.8rem;
+}
+.section-currency__div--date p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: var(--warm-black);
+}
