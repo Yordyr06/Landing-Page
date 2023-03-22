@@ -309,14 +309,14 @@ html {
   background-position: center;
   background-repeat: no-repeat;
 }
-.section-bonus__container--card :nth-child(1) {
+.section-bonus__container--card :nth-child(2) {
   margin-bottom: 1.5rem;
   font-size: 1.8rem;
   font-weight: bold;
   line-height: 1.8rem;
   color: var(--just-white);
 }
-.section-bonus__container--card :nth-child(2) {
+.section-bonus__container--card :nth-child(3) {
   font-size: 1.4rem;
   font-weight: 500;
   line-height: 1.8rem;
