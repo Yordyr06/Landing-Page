@@ -352,4 +352,44 @@ html {
   font-weight: bold;
   line-height: 2.6rem;
   color: var(--just-white);
+  text-align: center;
 }
+
+
+
+#plans {}
+.plans--main-container {
+  width: 100%;
+  min-width: 32rem;
+  padding-bottom: 7rem;
+  text-align: center;
+}
+.plans--tittle {
+  width: 90%;
+  min-width: 28.8rem;
+  height: auto;
+  margin: 0 auto;
+  margin-bottom: 5rem;
+}
+.plans--tittle h2 {
+  padding-top: 5rem;
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+  color: var(--black);
+}
+.plans--tittle p {
+  padding-top: 3rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: #757575;
+}
+.plans--slider-container {}
+.plans__cards {}
+.plans__cards .recomended {}
+.plans__cards--container {}
+.plans__cards--tittle {}
+.plans__cards--price {}
+.plans__cards--savins {}
+.plans__cards--buttom {}
