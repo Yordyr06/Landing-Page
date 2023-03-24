@@ -1,0 +1,18 @@
+.section-chart--slider-container {
+	display: flex;
+	justify-content: center;
+	width: 1024px;
+	margin: 0 auto;
+}
+
+.section-bonus__container {
+	display: flex;
+	flex-wrap: wrap;
+	width: 1024px;
+	margin: 0 auto;
+}
+
+.plans--slider-container {
+	justify-content: center;
+	height: auto;
+}

@@ -9,8 +9,10 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;500&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="/style/reset.css">
-  <link rel="stylesheet" href="/style/main.css">
+  <link rel="stylesheet" href="./style/reset.css">
+  <link rel="stylesheet" href="./style/main.css">
+  <link rel="stylesheet" href="./style/tablet.css" media="(min-width: 720px)">
+  <link rel="stylesheet" href="./style/desktop.css" media="(min-width: 1024px)">
 
   <title>Batatabit</title>
 </head>
@@ -33,7 +35,8 @@
         <p>Traemos información en tiempo real de las casas de cambio y las monedas más importantes del mundo.</p>
       </div>
 
-      <section class="section-currency">
+      <div class="section-chart--slider-container">
+        <section class="section-currency">
         <div class="section-currency__div">
           <p class="section-currency__div--tittle">Monedas</p>
           <div class="section-currency__div--table-container">
@@ -63,9 +66,9 @@
             <p><b>Actualizado:</b> 19 de marzo, a las 23:45</p>
           </div>
         </div>
-      </section>
+        </section>
 
-      <section class="section-commissions">
+        <section class="section-commissions">
         <div class="section-commissions__div">
           <p class="section-commissions__div--tittle">Comisiones</p>
           <div class="section-commissions__div--table-container">
@@ -95,7 +98,8 @@
             <p><b>Actualizado:</b> 19 de marzo, a las 23:45</p>
           </div>
         </div>
-      </section>
+        </section>
+      </div>
     </section>
 
     <section class="section-bonus">
@@ -172,7 +176,6 @@
       </section>
     </section>
   </main>
-
 
 
   <footer class="footer">

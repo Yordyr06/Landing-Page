@@ -160,13 +160,22 @@ html {
 .section-commissions__div--tittle {
   color: var(--secondary-blue);
 }
+.section-chart--slider-container {
+  display: flex;
+  height: auto;
+  overflow-x: scroll;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x proximity;
+}
 .section-currency__div--table-container,
 .section-commissions__div--table-container {
+  position: relative;
+  scroll-snap-align: center;
   width: 90%;
   min-width: 23rem;
   max-width: 30rem;
   height: 25rem;
-  margin: 0 auto;
+  margin: 0 2rem 1.5rem 0;
 }
 .section-currency__div--table-container table,
 .section-commissions__div--table-container table {
@@ -400,7 +409,7 @@ html {
   min-width: 19rem;
   max-width: 30rem;
   height: 25rem;
-  margin: 5rem 2rem 0;
+  margin: 5rem 2rem 1.5rem;
   padding: 0 1.5rem;
   border-radius: 1.5rem;
   box-shadow: 0 0.4rem 0.8rem rgba(80, 73, 30, 0.16); 
