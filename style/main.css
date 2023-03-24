@@ -8,6 +8,7 @@
   --black: #201e1c;
   
   --light-grey: #bababa;
+  --light-grey-2: #757575;
   --grey: #808080;
   
   --off-white: #faf8f7;
@@ -133,7 +134,7 @@ html {
   font-size: 1.4rem;
   font-weight: 500;
   line-height: 1.6rem;
-  color: #757575;
+  color: var(--light-grey-2);
 }
 .section-currency,
 .section-commissions {}
@@ -204,7 +205,7 @@ html {
 .section-commissions__div--table-right {
   font-size: 1.4rem;
   font-weight: normal;
-  color: #757575;
+  color: var(--light-grey-2);
 }
 .section-currency__div--table-right .up {
   display: inline-block;
@@ -383,13 +384,81 @@ html {
   font-size: 1.4rem;
   font-weight: 500;
   line-height: 1.8rem;
-  color: #757575;
+  color: var(--light-grey-2);
 }
-.plans--slider-container {}
-.plans__cards {}
-.plans__cards .recomended {}
+.plans--slider-container {
+  display: flex;
+  height: 31.6rem;
+  overflow-x: scroll;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x proximity;
+}
+.plans__cards {
+  position: relative;
+  scroll-snap-align: center;
+  width: 70%;
+  min-width: 23rem;
+  max-width: 30rem;
+  height: 25rem;
+  margin: 5rem 2rem 0;
+  padding: 0 1.5rem;
+  border-radius: 1.5rem;
+  box-shadow: 0 0.4rem 0.8rem rgba(80, 73, 30, 0.16); 
+}
+.plans__cards .recomended {
+  position: absolute;
+  width: 12rem;
+  height: 2.8rem;
+  top: -1.5rem;
+  left: calc(50% - 6rem);
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 0.6rem;
+  background-color: var(--bitcoin-orange);
+  border-radius: 0.8rem;
+  color: var(--just-white);
+}
 .plans__cards--container {}
-.plans__cards--tittle {}
-.plans__cards--price {}
-.plans__cards--savins {}
-.plans__cards--buttom {}
+.plans__cards--tittle {
+  padding-top: 3rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: var(--black);
+}
+.plans__cards--price {
+  padding: 0.5rem 1rem 0.5rem 0;
+  font-size: 5.2rem;
+  font-weight: bold;
+  line-height: 5.3rem;
+  color: var(--black);
+}
+.plans__cards--price sub {
+  font-size: 1.2rem;
+  font-weight: 300;
+  vertical-align: text-top;
+}
+.plans__cards--saving {
+  font-size: 1.2rem;
+  color: var(--light-grey-2);
+}
+.plans__cards--buttom {
+  width: 15rem;
+  height: 4.8rem;
+  margin: 2rem auto;
+  background-color: var(--off-white);
+  border: 0.2rem solid var(--bitcoin-orange);
+  border-radius: 0.8rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+  line-height: 1.8rem;
+  color: var(--black);
+}
+.plans__cards--buttom span {
+  display: inline-block;
+  margin-left: 0.5rem;
+  width: 2rem;
+  height: 2rem;
+  background-image: url(../assets/icons/orange-right-arrow.svg);
+  vertical-align: text-bottom;
+}
