@@ -1,0 +1,25 @@
+{
+  "name": "landing-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Yordyr06/Landing-Page.git"
+  },
+  "keywords": [
+    "landing-page",
+    "scss",
+    "javascript",
+    "npm"
+  ],
+  "author": "Yordy Almonte <yoalmonte.dev@outlook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Yordyr06/Landing-Page/issues"
+  },
+  "homepage": "https://github.com/Yordyr06/Landing-Page#readme"
+}

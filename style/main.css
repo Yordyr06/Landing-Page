@@ -1,27 +1,20 @@
- :root {
+:root {
   --bitcoin-orange: #f7931a;
   --soft-orange: #ffe9d5;
   --secondary-blue: #1a9af7;
   --soft-blue: #e7f5ff;
-
   --warm-black: #282623;
   --black: #201e1c;
-  
   --light-grey: #bababa;
   --light-grey-2: #757575;
   --grey: #808080;
-  
   --off-white: #faf8f7;
   --just-white: #fff;
 }
 
-
-
 html {
   font-size: 62.5%;
 }
-
-
 
 .header {
   position: relative;
@@ -34,12 +27,14 @@ html {
   text-align: center;
   background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
 }
+
 .header__img {
   width: 15rem;
   height: 2.4rem;
   margin-top: 6rem;
   align-self: center;
 }
+
 .header__div {
   width: 90%;
   min-width: 28.8rem;
@@ -49,12 +44,14 @@ html {
   text-align: center;
   align-self: center;
 }
+
 .header__div h1 {
   font-size: 2.4rem;
   font-weight: bold;
   line-height: 2.6rem;
   color: var(--just-white);
 }
+
 .header__div p {
   margin-top: 2.5rem;
   font-size: 1.4rem;
@@ -62,6 +59,7 @@ html {
   line-height: 1.8rem;
   color: var(--soft-orange);
 }
+
 .header__div--button-style {
   position: absolute;
   display: inline-block;
@@ -82,6 +80,7 @@ html {
   font-weight: bold;
   color: var(--black);
 }
+
 .header__div--button-style span {
   display: inline-block;
   width: 1.3rem;
@@ -89,8 +88,6 @@ html {
   margin-left: 1rem;
   background-image: url("../assets/icons/down-arrow.svg");
 }
-
-
 
 .main {
   width: 100%;
@@ -106,6 +103,7 @@ html {
   padding-bottom: 3rem;
   text-align: center;
 }
+
 .section-chart__div-img {
   width: 20rem;
   height: 20rem;
@@ -116,12 +114,14 @@ html {
   background-position: center;
   background-repeat: no-repeat;
 }
+
 .section-chart__div-text {
   width: 90%;
   min-width: 28.8rem;
   max-width: 90rem;
   margin: 0 auto;
 }
+
 .section-chart__div-text h2 {
   margin-bottom: 3rem;
   font-size: 2.4rem;
@@ -129,6 +129,7 @@ html {
   line-height: 2.6rem;
   color: var(--black);
 }
+
 .section-chart__div-text p {
   margin-bottom: 3rem;
   font-size: 1.4rem;
@@ -136,8 +137,7 @@ html {
   line-height: 1.6rem;
   color: var(--light-grey-2);
 }
-.section-currency,
-.section-commissions {}
+
 .section-currency__div,
 .section-commissions__div {
   width: 70%;
@@ -147,6 +147,7 @@ html {
   margin: 0 auto;
   font-family: "Inter", sans-serif;
 }
+
 .section-currency__div--tittle,
 .section-commissions__div--tittle {
   margin-bottom: 1.5rem;
@@ -154,12 +155,15 @@ html {
   font-weight: bold;
   line-height: 2.3rem;
 }
-.section-currency__div--tittle{
+
+.section-currency__div--tittle {
   color: var(--bitcoin-orange);
 }
+
 .section-commissions__div--tittle {
   color: var(--secondary-blue);
 }
+
 .section-chart--slider-container {
   display: flex;
   height: auto;
@@ -167,6 +171,7 @@ html {
   overscroll-behavior-x: contain;
   scroll-snap-type: x proximity;
 }
+
 .section-currency__div--table-container,
 .section-commissions__div--table-container {
   position: relative;
@@ -177,11 +182,13 @@ html {
   height: 25rem;
   margin: 0 2rem 1.5rem 0;
 }
+
 .section-currency__div--table-container table,
 .section-commissions__div--table-container table {
   width: 100%;
   height: 100%;
 }
+
 .section-currency__div--table-container td,
 .section-commissions__div--table-container td {
   width: 50%;
@@ -192,30 +199,34 @@ html {
   color: var(--light-grey);
   background-color: var(--just-white);
 }
+
 .section-currency__div--table-top-left,
 .section-commissions__div--table-top-left {
   border-radius: 1.5rem 0 0 0;
 }
+
 .section-currency__div--table-top-right,
 .section-commissions__div--table-top-right {
   border-radius: 0 1.5rem 0 0;
 }
+
 .section-currency__div--table-bottom-left,
 .section-commissions__div--table-bottom-left {
   border-radius: 0 0 0 1.5rem;
 }
+
 .section-currency__div--table-bottom-right,
 .section-commissions__div--table-bottom-right {
   border-radius: 0 0 1.5rem 0;
 }
-.section-currency__div--table-left,
-.section-commissions__div--table-left {}
+
 .section-currency__div--table-right,
 .section-commissions__div--table-right {
   font-size: 1.4rem;
   font-weight: normal;
   color: var(--light-grey-2);
 }
+
 .section-currency__div--table-right .up {
   display: inline-block;
   width: 1.5rem;
@@ -226,6 +237,7 @@ html {
   background-position: center;
   background-repeat: no-repeat;
 }
+
 .section-currency__div--table-right .down {
   display: inline-block;
   width: 1.5rem;
@@ -236,6 +248,7 @@ html {
   background-position: center;
   background-repeat: no-repeat;
 }
+
 .section-currency__div--date,
 .section-commissions__div--date {
   width: 20rem;
@@ -245,20 +258,21 @@ html {
   padding: 0.8rem;
   border-radius: 0.8rem;
 }
+
 .section-currency__div--date {
   background-color: var(--soft-orange);
 }
+
 .section-commissions__div--date {
   background-color: var(--soft-blue);
 }
+
 .section-currency__div--date p,
 .section-commissions__div--date p {
   font-size: 1rem;
   line-height: 1.5rem;
   color: var(--warm-black);
 }
-
-
 
 .section-bonus {
   position: relative;
@@ -268,6 +282,7 @@ html {
   padding: 2rem 1rem;
   background-color: var(--warm-black);
 }
+
 .section-bonus--logo {
   position: absolute;
   width: 4rem;
@@ -276,6 +291,7 @@ html {
   left: calc(50% - 2rem);
   background-image: url("../assets/icons/batata.svg");
 }
+
 .section-bonus--tittle {
   width: 90%;
   min-width: 28.8rem;
@@ -284,6 +300,7 @@ html {
   margin-top: 5rem;
   text-align: center;
 }
+
 .section-bonus--tittle h2 {
   margin-bottom: 2rem;
   font-size: 2.4rem;
@@ -291,6 +308,7 @@ html {
   line-height: 2.6rem;
   color: var(--just-white);
 }
+
 .section-bonus--tittle p {
   margin-bottom: 2rem;
   font-size: 1.4rem;
@@ -298,7 +316,7 @@ html {
   line-height: 1.8rem;
   color: var(--grey);
 }
-.section-bonus__container {}
+
 .section-bonus__container--card {
   width: 90%;
   min-width: 28.8rem;
@@ -310,6 +328,7 @@ html {
   background-color: var(--black);
   box-shadow: 0 0.4rem 0.8rem rgba(0, 0, 0, 0.16);
 }
+
 .section-bonus__container--card span {
   display: inline-block;
   width: 2rem;
@@ -319,6 +338,7 @@ html {
   background-position: center;
   background-repeat: no-repeat;
 }
+
 .section-bonus__container--card :nth-child(2) {
   margin-bottom: 1.5rem;
   font-size: 1.8rem;
@@ -326,26 +346,29 @@ html {
   line-height: 1.8rem;
   color: var(--just-white);
 }
+
 .section-bonus__container--card :nth-child(3) {
   font-size: 1.4rem;
   font-weight: 500;
   line-height: 1.8rem;
   color: var(--grey);
 }
+
 .section-bonus__container--clock-icon {
   background-image: url("../assets/icons/clock.svg");
 }
+
 .section-bonus__container--eye-icon {
   background-image: url("../assets/icons/eye.svg");
 }
+
 .section-bonus__container--cash-icon {
   background-image: url("../assets/icons/dollar-sign.svg");
 }
+
 .section-bonus__container--check-icon {
   background-image: url("../assets/icons/check-circle.svg");
 }
-
-
 
 .section-btc-img {
   width: 100%;
@@ -356,6 +379,7 @@ html {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .section-btc-img h2 {
   padding-top: 6rem;
   font-size: 2.4rem;
@@ -365,15 +389,13 @@ html {
   text-align: center;
 }
 
-
-
-#plans {}
 .plans--main-container {
   width: 100%;
   min-width: 32rem;
   padding-bottom: 7rem;
   text-align: center;
 }
+
 .plans--tittle {
   width: 90%;
   min-width: 28.8rem;
@@ -381,6 +403,7 @@ html {
   margin: 0 auto;
   margin-bottom: 5rem;
 }
+
 .plans--tittle h2 {
   padding-top: 5rem;
   font-size: 2.4rem;
@@ -388,6 +411,7 @@ html {
   line-height: 2.6rem;
   color: var(--black);
 }
+
 .plans--tittle p {
   padding-top: 3rem;
   font-size: 1.4rem;
@@ -395,6 +419,7 @@ html {
   line-height: 1.8rem;
   color: var(--light-grey-2);
 }
+
 .plans--slider-container {
   display: flex;
   height: 31.6rem;
@@ -402,6 +427,7 @@ html {
   overscroll-behavior-x: contain;
   scroll-snap-type: x proximity;
 }
+
 .plans__cards {
   position: relative;
   scroll-snap-align: center;
@@ -412,8 +438,9 @@ html {
   margin: 5rem 2rem 1.5rem;
   padding: 0 1.5rem;
   border-radius: 1.5rem;
-  box-shadow: 0 0.4rem 0.8rem rgba(80, 73, 30, 0.16); 
+  box-shadow: 0 0.4rem 0.8rem rgba(80, 73, 30, 0.16);
 }
+
 .plans__cards .recomended {
   position: absolute;
   width: 12rem;
@@ -427,7 +454,7 @@ html {
   border-radius: 0.8rem;
   color: var(--just-white);
 }
-.plans__cards--container {}
+
 .plans__cards--tittle {
   padding-top: 3rem;
   font-size: 1.4rem;
@@ -435,6 +462,7 @@ html {
   line-height: 1.8rem;
   color: var(--black);
 }
+
 .plans__cards--price {
   padding: 0.5rem 1rem 0.5rem 0;
   font-size: 5.2rem;
@@ -442,15 +470,18 @@ html {
   line-height: 5.3rem;
   color: var(--black);
 }
+
 .plans__cards--price sub {
   font-size: 1.2rem;
   font-weight: 300;
   vertical-align: text-top;
 }
+
 .plans__cards--saving {
   font-size: 1.2rem;
   color: var(--light-grey-2);
 }
+
 .plans__cards--buttom {
   width: 15rem;
   height: 4.8rem;
@@ -463,6 +494,7 @@ html {
   line-height: 1.8rem;
   color: var(--black);
 }
+
 .plans__cards--buttom span {
   display: inline-block;
   margin-left: 0.5rem;
@@ -472,8 +504,6 @@ html {
   vertical-align: text-bottom;
 }
 
-
-
 .footer {
   display: flex;
   align-items: center;
@@ -482,19 +512,22 @@ html {
   height: 15rem;
   background-color: var(--bitcoin-orange);
 }
+
 .footer--social-media ul {
   font-size: 1.4rem;
   font-weight: 500;
   line-height: 1.8rem;
 }
+
 .footer--social-media li {
   margin: 1.5rem 0;
 }
+
 .footer--social-media a {
   color: var(--just-white);
 }
-.footer--social-media a:hover{
+
+.footer--social-media a:hover {
   cursor: pointer;
   text-decoration: underline;
-}
-.footer--logo-container {}
+}/*# sourceMappingURL=main.css.map */
