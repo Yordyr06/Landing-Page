@@ -1,18 +1,18 @@
 .section-chart--slider-container {
-	display: flex;
-	justify-content: center;
-	width: 1024px;
-	margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  width: 1024px;
+  margin: 0 auto;
 }
 
 .section-bonus__container {
-	display: flex;
-	flex-wrap: wrap;
-	width: 1024px;
-	margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  width: 1024px;
+  margin: 0 auto;
 }
 
 .plans--slider-container {
-	justify-content: center;
-	height: auto;
-}
+  justify-content: center;
+  height: auto;
+}/*# sourceMappingURL=desktop.css.map */

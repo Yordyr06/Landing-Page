@@ -1,0 +1,84 @@
+.section-bonus {
+    position: relative;
+    width: 100%;
+    min-width: 32rem;
+    height: auto;
+    padding: 2rem 1rem;
+    background-color: var(--warm-black);
+    }
+    .section-bonus--logo {
+    position: absolute;
+    width: 4rem;
+    height: 2.5rem;
+    top: -1.5rem;
+    left: calc(50% - 2rem);
+    background-image: url("../assets/icons/batata.svg");
+    }
+    .section-bonus--tittle {
+    width: 90%;
+    min-width: 28.8rem;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 5rem;
+    text-align: center;
+    }
+    .section-bonus--tittle h2 {
+    margin-bottom: 2rem;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--just-white);
+    }
+    .section-bonus--tittle p {
+    margin-bottom: 2rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: var(--grey);
+    }
+    .section-bonus__container {}
+    .section-bonus__container--card {
+    width: 90%;
+    min-width: 28.8rem;
+    max-width: 40rem;
+    height: 15rem;
+    margin: 1.5rem auto;
+    padding: 1.5rem;
+    border-radius: 0.8rem;
+    background-color: var(--black);
+    box-shadow: 0 0.4rem 0.8rem rgba(0, 0, 0, 0.16);
+    }
+    .section-bonus__container--card span {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    margin-bottom: 1rem;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    }
+    .section-bonus__container--card :nth-child(2) {
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: var(--just-white);
+    }
+    .section-bonus__container--card :nth-child(3) {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: var(--grey);
+    }
+    .section-bonus__container--clock-icon {
+    background-image: url("../assets/icons/clock.svg");
+    }
+    .section-bonus__container--eye-icon {
+    background-image: url("../assets/icons/eye.svg");
+    }
+    .section-bonus__container--cash-icon {
+    background-image: url("../assets/icons/dollar-sign.svg");
+    }
+    .section-bonus__container--check-icon {
+    background-image: url("../assets/icons/check-circle.svg");
+    }
