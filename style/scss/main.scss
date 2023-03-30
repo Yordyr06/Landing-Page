@@ -16,7 +16,6 @@ html {
 }
 
 
-
 .main {
     width: 100%;
     min-width: 32rem;
@@ -24,9 +23,10 @@ html {
     background-color: var($off-white);
 }
 
-@import url("./_header.scss");
-@import url("./_section-charts.scss");
-@import url("./_section-plans.scss");
-@import url("./_section-btc-img.scss");
-@import url("./_section-plans.scss");
-@import url("./_footer.scss");
+// @import './header';
+// @import './section-charts';
+// @import './section-btc-img';
+// @import './section-products';
+// @import './section-plans';
+// @import './footer';
+@import './header', './section-charts', './section-btc-img', './section-products', './section-plans', './footer';

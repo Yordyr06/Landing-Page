@@ -1,0 +1,516 @@
+@import url("./main.scss");
+html {
+  font-size: 62.5%;
+}
+
+.main {
+  width: 100%;
+  min-width: 32rem;
+  height: auto;
+  background-color: var(#faf8f7);
+}
+
+.header {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  min-width: 32rem;
+  height: 33.4rem;
+  text-align: center;
+  background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
+}
+.header__img {
+  width: 15rem;
+  height: 2.4rem;
+  margin-top: 6rem;
+  align-self: center;
+}
+.header .header__div {
+  width: 90%;
+  min-width: 28.8rem;
+  max-width: 90rem;
+  height: 21.8rem;
+  margin-top: 4rem;
+  text-align: center;
+  align-self: center;
+}
+.header .header__div h1 {
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+  color: var(--just-white);
+}
+.header .header__div p {
+  margin-top: 2.5rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: var(--soft-orange);
+}
+.header .header__div--button-style {
+  position: absolute;
+  display: inline-block;
+  top: 27rem;
+  left: 0;
+  right: 0;
+  margin-top: 3.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1.5rem;
+  width: 22.9rem;
+  height: 4.8rem;
+  background-color: var(--off-white);
+  box-shadow: 0px 4px 8px rgba(80, 73, 30, 0.16);
+  border: none;
+  border-radius: 5px;
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: var(--black);
+}
+.header .header__div--button-style span {
+  display: inline-block;
+  width: 1.3rem;
+  height: 0.8rem;
+  margin-left: 1rem;
+  background-image: url("../assets/icons/down-arrow.svg");
+}
+
+.section-chart {
+  width: 100%;
+  height: auto;
+  padding-top: 8rem;
+  padding-bottom: 3rem;
+  text-align: center;
+}
+
+.section-chart__div-img {
+  width: 20rem;
+  height: 20rem;
+  margin: 0 auto;
+  margin-bottom: 5rem;
+  background-image: url("../assets/img/Bitcoin.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.section-chart__div-text {
+  width: 90%;
+  min-width: 28.8rem;
+  max-width: 90rem;
+  margin: 0 auto;
+}
+
+.section-chart__div-text h2 {
+  margin-bottom: 3rem;
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+  color: var(--black);
+}
+
+.section-chart__div-text p {
+  margin-bottom: 3rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.6rem;
+  color: var(--light-grey-2);
+}
+
+.section-currency__div,
+.section-commissions__div {
+  width: 70%;
+  min-width: 23.5rem;
+  max-width: 50rem;
+  height: 36rem;
+  margin: 0 auto;
+  font-family: "Inter", sans-serif;
+}
+
+.section-currency__div--tittle,
+.section-commissions__div--tittle {
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 2.3rem;
+}
+
+.section-currency__div--tittle {
+  color: var(--bitcoin-orange);
+}
+
+.section-commissions__div--tittle {
+  color: var(--secondary-blue);
+}
+
+.section-chart--slider-container {
+  display: flex;
+  height: auto;
+  overflow-x: scroll;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x proximity;
+}
+
+.section-currency__div--table-container,
+.section-commissions__div--table-container {
+  position: relative;
+  scroll-snap-align: center;
+  width: 90%;
+  min-width: 23rem;
+  max-width: 30rem;
+  height: 25rem;
+  margin: 0 2rem 1.5rem 0;
+}
+
+.section-currency__div--table-container table,
+.section-commissions__div--table-container table {
+  width: 100%;
+  height: 100%;
+}
+
+.section-currency__div--table-container td,
+.section-commissions__div--table-container td {
+  width: 50%;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.9rem;
+  padding: 2rem;
+  color: var(--light-grey);
+  background-color: var(--just-white);
+}
+
+.section-currency__div--table-top-left,
+.section-commissions__div--table-top-left {
+  border-radius: 1.5rem 0 0 0;
+}
+
+.section-currency__div--table-top-right,
+.section-commissions__div--table-top-right {
+  border-radius: 0 1.5rem 0 0;
+}
+
+.section-currency__div--table-bottom-left,
+.section-commissions__div--table-bottom-left {
+  border-radius: 0 0 0 1.5rem;
+}
+
+.section-currency__div--table-bottom-right,
+.section-commissions__div--table-bottom-right {
+  border-radius: 0 0 1.5rem 0;
+}
+
+.section-currency__div--table-right,
+.section-commissions__div--table-right {
+  font-size: 1.4rem;
+  font-weight: normal;
+  color: var(--light-grey-2);
+}
+
+.section-currency__div--table-right .up {
+  display: inline-block;
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-left: 1rem;
+  background-image: url("../assets/icons/trending-up.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.section-currency__div--table-right .down {
+  display: inline-block;
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-left: 1rem;
+  background-image: url("../assets/icons/trending-down.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.section-currency__div--date,
+.section-commissions__div--date {
+  width: 20rem;
+  height: 3rem;
+  margin: 0 auto;
+  margin-top: 1.5rem;
+  padding: 0.8rem;
+  border-radius: 0.8rem;
+}
+
+.section-currency__div--date {
+  background-color: var(--soft-orange);
+}
+
+.section-commissions__div--date {
+  background-color: var(--soft-blue);
+}
+
+.section-currency__div--date p,
+.section-commissions__div--date p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: var(--warm-black);
+}
+
+.section-btc-img {
+  width: 100%;
+  min-width: 32rem;
+  height: 50vh;
+  background-image: url("../assets/img/bitcoinbaby2x.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.section-btc-img h2 {
+  padding-top: 6rem;
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+  color: var(--just-white);
+  text-align: center;
+}
+
+.section-bonus {
+  position: relative;
+  width: 100%;
+  min-width: 32rem;
+  height: auto;
+  padding: 2rem 1rem;
+  background-color: var(--warm-black);
+}
+
+.section-bonus--logo {
+  position: absolute;
+  width: 4rem;
+  height: 2.5rem;
+  top: -1.5rem;
+  left: calc(50% - 2rem);
+  background-image: url("../assets/icons/batata.svg");
+}
+
+.section-bonus--tittle {
+  width: 90%;
+  min-width: 28.8rem;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.section-bonus--tittle h2 {
+  margin-bottom: 2rem;
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+  color: var(--just-white);
+}
+
+.section-bonus--tittle p {
+  margin-bottom: 2rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: var(--grey);
+}
+
+.section-bonus__container--card {
+  width: 90%;
+  min-width: 28.8rem;
+  max-width: 40rem;
+  height: 15rem;
+  margin: 1.5rem auto;
+  padding: 1.5rem;
+  border-radius: 0.8rem;
+  background-color: var(--black);
+  box-shadow: 0 0.4rem 0.8rem rgba(0, 0, 0, 0.16);
+}
+
+.section-bonus__container--card span {
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  margin-bottom: 1rem;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.section-bonus__container--card :nth-child(2) {
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 1.8rem;
+  color: var(--just-white);
+}
+
+.section-bonus__container--card :nth-child(3) {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: var(--grey);
+}
+
+.section-bonus__container--clock-icon {
+  background-image: url("../assets/icons/clock.svg");
+}
+
+.section-bonus__container--eye-icon {
+  background-image: url("../assets/icons/eye.svg");
+}
+
+.section-bonus__container--cash-icon {
+  background-image: url("../assets/icons/dollar-sign.svg");
+}
+
+.section-bonus__container--check-icon {
+  background-image: url("../assets/icons/check-circle.svg");
+}
+
+.plans--main-container {
+  width: 100%;
+  min-width: 32rem;
+  padding-bottom: 7rem;
+  text-align: center;
+}
+
+.plans--tittle {
+  width: 90%;
+  min-width: 28.8rem;
+  height: auto;
+  margin: 0 auto;
+  margin-bottom: 5rem;
+}
+
+.plans--tittle h2 {
+  padding-top: 5rem;
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+  color: var(--black);
+}
+
+.plans--tittle p {
+  padding-top: 3rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: var(--light-grey-2);
+}
+
+.plans--slider-container {
+  display: flex;
+  height: 31.6rem;
+  overflow-x: scroll;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x proximity;
+}
+
+.plans__cards {
+  position: relative;
+  scroll-snap-align: center;
+  width: 70%;
+  min-width: 19rem;
+  max-width: 30rem;
+  height: 25rem;
+  margin: 5rem 2rem 1.5rem;
+  padding: 0 1.5rem;
+  border-radius: 1.5rem;
+  box-shadow: 0 0.4rem 0.8rem rgba(80, 73, 30, 0.16);
+}
+
+.plans__cards .recomended {
+  position: absolute;
+  width: 12rem;
+  height: 2.8rem;
+  top: -1.5rem;
+  left: calc(50% - 6rem);
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 0.6rem;
+  background-color: var(--bitcoin-orange);
+  border-radius: 0.8rem;
+  color: var(--just-white);
+}
+
+.plans__cards--tittle {
+  padding-top: 3rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: var(--black);
+}
+
+.plans__cards--price {
+  padding: 0.5rem 1rem 0.5rem 0;
+  font-size: 5.2rem;
+  font-weight: bold;
+  line-height: 5.3rem;
+  color: var(--black);
+}
+
+.plans__cards--price sub {
+  font-size: 1.2rem;
+  font-weight: 300;
+  vertical-align: text-top;
+}
+
+.plans__cards--saving {
+  font-size: 1.2rem;
+  color: var(--light-grey-2);
+}
+
+.plans__cards--buttom {
+  width: 15rem;
+  height: 4.8rem;
+  margin: 2rem auto;
+  background-color: var(--off-white);
+  border: 0.2rem solid var(--bitcoin-orange);
+  border-radius: 0.8rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+  line-height: 1.8rem;
+  color: var(--black);
+}
+
+.plans__cards--buttom span {
+  display: inline-block;
+  margin-left: 0.5rem;
+  width: 2rem;
+  height: 2rem;
+  background-image: url(../assets/icons/orange-right-arrow.svg);
+  vertical-align: text-bottom;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 15rem;
+  background-color: var(#f7931a);
+}
+
+.footer--social-media ul {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+}
+
+.footer--social-media li {
+  margin: 1.5rem 0;
+}
+
+.footer--social-media a {
+  color: var(--just-white);
+}
+
+.footer--social-media a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=main.css.map */
